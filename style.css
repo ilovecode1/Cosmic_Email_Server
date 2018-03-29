@@ -1,0 +1,41 @@
+body{
+	background: #232526;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding-top: 12%;
+}
+.title{
+	font-size: 50px;
+	color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#ffffff,#ecf0f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+	font-family: 'Pacifico', cursive;	
+	text-shadow: 17px 20px 18px 0px ;
+
+
+}
+.btn{
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	border: none;
+	font-size: 20px;
+	border-radius: 61px 61px 61px 61px;
+	-moz-border-radius: 61px 61px 61px 61px;
+	-webkit-border-radius: 61px 61px 61px 61px;
+	border: 0px solid #000000;
+	padding: 15px;
+}
+.margin-top{
+	margin-top: 40px;
+}
+.btn-login{
+	background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+}
+.btn-help{
+	background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+}
+.btn-support{
+	background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
